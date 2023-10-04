@@ -1,0 +1,88 @@
+
+A:link {
+	FONT-SIZE: 10pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 10pt; COLOR: #000080; TEXT-DECORATION: none
+}
+A.tlink:active {
+	FONT-SIZE: 12pt
+}
+A:active {
+	TEXT-DECORATION: underline
+}
+A.tlink:visited {
+	FONT-SIZE: 12pt
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.headlink {
+	FONT-WEIGHT: 200; FONT-SIZE: 9pt; CURSOR: help; COLOR: black; BACKGROUND-COLOR: white
+}
+.headlink:link {
+	COLOR: white
+}
+:active:unknown {
+	COLOR: yellow
+}
+.headlink:visited {
+	COLOR: white
+}
+.headLink:hover {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+.Grnlink {
+	FONT-WEIGHT: 300; FONT-SIZE: 11pt; CURSOR: help; COLOR: white; BACKGROUND-COLOR: #00693f
+}
+.Grnlink:link {
+	COLOR: white
+}
+:active:unknown {
+	COLOR: white
+}
+.Grnlink:visited {
+	COLOR: white
+}
+.GrnLink:hover {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+.input {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: white; COLOR: #000000; HEIGHT: 17px
+}
+.IN {
+	FONT-SIZE: x-small; COLOR: #000000
+}
+.LeftNavOff {
+	BORDER-RIGHT: black 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: black 2px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; BORDER-LEFT: black 2px solid; WIDTH: 10px; CURSOR: hand; COLOR: white; LINE-HEIGHT: 10pt; PADDING-TOP: 0px; BORDER-BOTTOM: black 2px solid; LETTER-SPACING: -0.5pt; BACKGROUND-COLOR: black
+}
+.LeftNavUp {
+	PADDING-RIGHT: 3px; BORDER-TOP: #99ccff 2px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; BORDER-LEFT: #99ccff 2px solid; WIDTH: 10px; CURSOR: hand; COLOR: white; LINE-HEIGHT: 10pt; PADDING-TOP: 0px; BORDER-BOTTOM: #003399 2px solid; LETTER-SPACING: -0.5pt; HEIGHT: 0pt; BACKGROUND-COLOR: #003366
+}
+.LeftNavDown {
+	BORDER-RIGHT: #99ccff 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: #003399 2px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; BORDER-LEFT: #003399 2px solid; WIDTH: 10px; CURSOR: hand; COLOR: blue; LINE-HEIGHT: 10pt; PADDING-TOP: 0px; BORDER-BOTTOM: #99ccff 2px solid; LETTER-SPACING: -0.5pt; BACKGROUND-COLOR: black
+}
+.LeftNavOn {
+	BORDER-RIGHT: #99ccff 2px solid; PADDING-RIGHT: 3px; BORDER-TOP: #003399 2px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; BORDER-LEFT: #003399 2px solid; WIDTH: 10px; COLOR: #666666; LINE-HEIGHT: 10pt; PADDING-TOP: 0px; BORDER-BOTTOM: #99ccff 2px solid; LETTER-SPACING: -0.5pt; BACKGROUND-COLOR: white
+}
+.clsBut {
+	FONT-SIZE: 12px
+}
+TABLE.clir {
+	BORDER-RIGHT: white 2px solid; TABLE-LAYOUT: fixed; BORDER-TOP: white 2px solid; BORDER-LEFT: white 2px solid; BORDER-BOTTOM: white 2px solid
+}
+TABLE.qk {
+	TABLE-LAYOUT: fixed
+}
+.bigChange {
+	FONT-WEIGHT: bolder; FONT-SIZE: 175%; BACKGROUND: yellow; TEXT-TRANSFORM: uppercase; COLOR: blue; LETTER-SPACING: 4px
+}
+.start {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: navy; COLOR: yellow; HEIGHT: 17px
+}
+.startr {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: url(required.gif) white no-repeat right top; COLOR: #000000; HEIGHT: 17px
+}
+.inputr {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: url(required.gif) white no-repeat right top; COLOR: #000000; HEIGHT: 17px
+}

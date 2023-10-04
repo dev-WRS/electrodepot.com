@@ -1,0 +1,18 @@
+#container {
+	BACKGROUND-COLOR: rgb(135,206,237); WIDTH: 980px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+A:link {
+	COLOR: rgb(25,10,200); TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: rgb(12,140,32); TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: rgb(255,0,0); TEXT-DECORATION: none
+}
+#menubar LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 3em; MARGIN-TOP: 10px; WIDTH: 13em; DISPLAY: block; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+#menubar LI {
+	MARGIN: 0px; FLOAT: left
+}

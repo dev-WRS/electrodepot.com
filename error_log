@@ -1,0 +1,458 @@
+[19-Jun-2023 16:09:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 16:09:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 16:21:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 16:21:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 17:33:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 17:33:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 18:22:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 18:22:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 18:22:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('martin_bouliane...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[19-Jun-2023 20:41:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 20:41:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 20:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('rossetti.sondra...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[19-Jun-2023 20:51:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 20:51:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 20:51:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('joe@ecomvisibil...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[19-Jun-2023 22:04:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 22:04:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jun-2023 22:04:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('joe@ecomvisibil...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[19-Jun-2023 22:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jun-2023 22:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Jun-2023 07:26:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Jun-2023 07:26:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Jun-2023 07:26:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('goodisson.angel...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[20-Jun-2023 10:47:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Jun-2023 10:47:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Jun-2023 13:41:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Jun-2023 13:41:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Jun-2023 15:55:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Jun-2023 15:55:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 01:07:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 01:07:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 01:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('mccathie.leah@o...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[21-Jun-2023 09:25:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 09:25:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 10:59:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 10:59:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 13:14:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 13:14:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 13:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('miles.charles@g...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[21-Jun-2023 16:37:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 16:37:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jun-2023 18:23:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jun-2023 18:23:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jun-2023 18:00:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jun-2023 18:00:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jun-2023 18:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('egbing32@gmail....')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[22-Jun-2023 18:15:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jun-2023 18:15:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jun-2023 18:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('mcencroe.sophie...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[22-Jun-2023 20:35:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jun-2023 20:35:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 04:37:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 04:37:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 04:37:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('mowll.lyle@hotm...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[23-Jun-2023 04:53:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 04:53:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 05:59:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 05:59:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 13:45:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 13:45:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 14:39:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 14:39:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 14:39:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('migroplc@gmail....')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[23-Jun-2023 15:36:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 15:36:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[23-Jun-2023 15:37:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('sdddaa@www.net')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[23-Jun-2023 15:45:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[23-Jun-2023 15:45:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jun-2023 00:12:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[24-Jun-2023 00:12:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jun-2023 05:11:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[24-Jun-2023 05:11:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jun-2023 05:11:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('libbyevans461@g...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[24-Jun-2023 14:12:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[24-Jun-2023 14:12:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jun-2023 14:12:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('joe@ecomvisibil...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[27-Jun-2023 20:23:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[27-Jun-2023 20:23:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[29-Jun-2023 13:47:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[29-Jun-2023 13:47:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[29-Jun-2023 13:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('paul@generatere...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[30-Jun-2023 23:32:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[30-Jun-2023 23:32:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[30-Jun-2023 23:33:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('leonel.hurlburt...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[01-Jul-2023 01:12:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[01-Jul-2023 01:12:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[01-Jul-2023 20:33:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[01-Jul-2023 20:33:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[02-Jul-2023 07:35:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[02-Jul-2023 07:35:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[02-Jul-2023 14:02:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[02-Jul-2023 14:02:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[10-Jul-2023 04:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[10-Jul-2023 04:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[10-Jul-2023 07:33:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[10-Jul-2023 07:33:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[10-Jul-2023 12:50:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[10-Jul-2023 12:50:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[12-Jul-2023 23:51:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[12-Jul-2023 23:51:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[13-Jul-2023 10:29:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[13-Jul-2023 10:29:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[13-Jul-2023 10:29:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('archon@tourisme...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[13-Jul-2023 13:37:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[13-Jul-2023 13:37:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[14-Jul-2023 17:11:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[14-Jul-2023 17:11:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[14-Jul-2023 17:11:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('georginahaynes9...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[18-Jul-2023 14:29:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[18-Jul-2023 14:29:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Jul-2023 13:39:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Jul-2023 13:39:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Jul-2023 11:49:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Jul-2023 11:49:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Jul-2023 08:45:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Jul-2023 08:45:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jul-2023 02:21:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jul-2023 02:21:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jul-2023 17:25:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jul-2023 17:25:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[22-Jul-2023 18:51:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[22-Jul-2023 18:51:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jul-2023 23:40:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[24-Jul-2023 23:40:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[24-Jul-2023 23:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('lien.gall@googl...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[25-Jul-2023 17:42:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[25-Jul-2023 17:42:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[01-Aug-2023 15:49:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[01-Aug-2023 15:49:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[04-Aug-2023 00:31:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[04-Aug-2023 00:31:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[04-Aug-2023 12:52:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[04-Aug-2023 12:52:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[05-Aug-2023 00:44:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[05-Aug-2023 00:44:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[05-Aug-2023 13:28:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[05-Aug-2023 13:28:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[05-Aug-2023 13:28:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('lumpkin.iola@gm...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[12-Aug-2023 01:43:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[12-Aug-2023 01:43:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[15-Aug-2023 10:35:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[15-Aug-2023 10:35:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[15-Aug-2023 21:38:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[15-Aug-2023 21:38:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[15-Aug-2023 21:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('market@dellty.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[16-Aug-2023 00:36:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[16-Aug-2023 00:36:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[16-Aug-2023 00:36:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('market@dellty.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[18-Aug-2023 17:48:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[18-Aug-2023 17:48:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[18-Aug-2023 19:39:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[18-Aug-2023 19:39:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[20-Aug-2023 19:03:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[20-Aug-2023 19:03:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Aug-2023 08:57:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Aug-2023 08:57:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Aug-2023 23:49:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[21-Aug-2023 23:49:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[21-Aug-2023 23:49:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('georginahaynes6...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[28-Aug-2023 15:42:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[28-Aug-2023 15:42:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[28-Aug-2023 15:42:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('meganatkinson14...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[31-Aug-2023 13:56:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[31-Aug-2023 13:56:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[01-Sep-2023 05:23:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[01-Sep-2023 05:23:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[01-Sep-2023 05:23:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('salter.tommie@g...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[01-Sep-2023 20:01:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[01-Sep-2023 20:01:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[06-Sep-2023 22:02:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[06-Sep-2023 22:02:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[08-Sep-2023 10:34:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[08-Sep-2023 10:34:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[09-Sep-2023 07:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[09-Sep-2023 07:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[09-Sep-2023 07:54:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('libbyevans461@g...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[11-Sep-2023 06:25:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[11-Sep-2023 06:25:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[11-Sep-2023 06:25:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('georginahaynes6...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[14-Sep-2023 15:37:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[14-Sep-2023 15:37:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[16-Sep-2023 12:50:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[16-Sep-2023 12:50:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[16-Sep-2023 12:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('arnott.ngan76@g...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[17-Sep-2023 16:00:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[17-Sep-2023 16:00:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[17-Sep-2023 16:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('hargreaves.eve4...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[17-Sep-2023 23:41:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[17-Sep-2023 23:41:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Sep-2023 18:49:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[19-Sep-2023 18:49:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[19-Sep-2023 18:49:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('market@dellty.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[25-Sep-2023 07:03:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[25-Sep-2023 07:03:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[25-Sep-2023 21:32:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[25-Sep-2023 21:32:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[25-Sep-2023 21:32:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('larhonda.jeffer...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[26-Sep-2023 10:59:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[26-Sep-2023 10:59:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[26-Sep-2023 10:59:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('corine.reardon@...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[26-Sep-2023 12:26:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[26-Sep-2023 12:26:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[26-Sep-2023 12:26:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('seamon.lisette@...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[26-Sep-2023 17:50:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[26-Sep-2023 17:50:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[26-Sep-2023 18:02:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[26-Sep-2023 18:02:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[26-Sep-2023 18:23:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[26-Sep-2023 18:23:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[27-Sep-2023 16:29:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[27-Sep-2023 16:29:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[27-Sep-2023 16:29:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('sherry.schmitt@...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[27-Sep-2023 22:27:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[27-Sep-2023 22:27:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[27-Sep-2023 22:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('market@dellty.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[28-Sep-2023 02:48:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[28-Sep-2023 02:48:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[28-Sep-2023 14:38:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[28-Sep-2023 14:38:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[28-Sep-2023 14:44:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[28-Sep-2023 14:44:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[28-Sep-2023 14:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('marmek1@gmail.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(29): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[28-Sep-2023 14:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('marmek1@gmail.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(23): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
+[29-Sep-2023 14:07:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[29-Sep-2023 14:07:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[29-Sep-2023 14:18:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[29-Sep-2023 14:18:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[29-Sep-2023 14:29:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGContactForm has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 30
+[29-Sep-2023 14:29:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FGSimpleCaptcha has a deprecated constructor in /home/adminwrs/public_html/electrodepot.com/include/simple-captcha.php on line 15
+[29-Sep-2023 14:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php:548
+Stack trace:
+#0 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(387): FGContactForm->validate_email('marmek1@gmail.c...')
+#1 /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php(129): FGContactForm->Validate()
+#2 /home/adminwrs/public_html/electrodepot.com/contactform.php(23): FGContactForm->ProcessForm()
+#3 {main}
+  thrown in /home/adminwrs/public_html/electrodepot.com/include/fgcontactform.php on line 548
