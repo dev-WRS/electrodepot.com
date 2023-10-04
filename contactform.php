@@ -1,17 +1,13 @@
 <?PHP
 require_once("./include/fgcontactform.php");
 require_once("./include/simple-captcha.php");
+/* Include the Composer generated autoload.php file. */
 
 $formproc = new FGContactForm();
 $sim_captcha = new FGSimpleCaptcha('scaptcha');
 
 $formproc->EnableCaptcha($sim_captcha);
 
-//1. Add your email address here.
-//You can add more than one receipients.
-$formproc->AddRecipient('info@electrodepot.com'); //<<---Put your email address here
-$formproc->AddRecipient('info@controlsupply.com');
-//$formproc->AddRecipient('marmek1@gmail.com');
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here
@@ -22,7 +18,8 @@ if(isset($_POST['submitted']))
 {
    if($formproc->ProcessForm())
    {
-        $formproc->RedirectToURL("thankyou.htm");
+    header("Location: thankyou.htm");
+    exit;
    }
 }
 
@@ -34,6 +31,7 @@ if(isset($_POST['submitted']))
       <title>Contact us</title>
       <link rel="STYLESHEET" type="text/css" href="contact.css" />
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
@@ -72,10 +70,13 @@ if(isset($_POST['submitted']))
 <fieldset id='antispam'>
 <legend >Anti-spam question</legend>
 <span class='short_explanation'>(Please answer the simple question below. This to prevent spam bots from submitting this form)</span>
-<div class='container'>
+<!-- <div class='container'>
     <label for='scaptcha' ><?php echo $sim_captcha->GetSimpleCaptcha(); ?></label>
     <input type='text' name='scaptcha' id='scaptcha' maxlength="10" /><br/>
     <span id='contactus_scaptcha_errorloc' class='error'></span>
+</div> -->
+<div class='container'>
+    <div class="g-recaptcha" data-sitekey="6LeFjXMoAAAAAApv4WgsKYRiotbUwvid8xiPmWId"></div>
 </div>
 </fieldset>
 
@@ -104,15 +105,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 
 
     frmvalidator.addValidation("scaptcha","req","Please answer the anti-spam question");
-
-
-
-
-
 // ]]>
 </script>
-
-
-
 </body>
 </html>

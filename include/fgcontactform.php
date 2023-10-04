@@ -12,7 +12,9 @@ PARTICULAR PURPOSE.
 
 @copyright html-form-guide.com 2010
 */
-require_once("class.phpmailer.php");
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require './vendor/autoload.php';
 
 /*
 Interface to Captcha handler
@@ -25,12 +27,12 @@ class FG_CaptchaHandler
 /*
 FGContactForm is a general purpose contact form class
 It supports Captcha, HTML Emails, sending emails
-conditionally, File atachments and more.
+conditionally, File attachments and more.
 */
 class FGContactForm
 {
-    var $receipients;
-    var $errors;
+    var $recipients;
+    var $errors = array('');
     var $error_message;
     var $name;
     var $email;
@@ -38,23 +40,16 @@ class FGContactForm
     var $from_address;
     var $form_random_key;
     var $conditional_field;
-    var $arr_conditional_receipients;
-    var $fileupload_fields;
+    var $arr_conditional_recipients=array('');
+    var $fileupload_fields=array();
     var $captcha_handler;
-
     var $mailer;
 
     function FGContactForm()
     {
-        $this->receipients = array();
-        $this->errors = array();
+        $this->recipients = array('');
         $this->form_random_key = 'HTgsjhartag';
         $this->conditional_field='';
-        $this->arr_conditional_receipients=array();
-        $this->fileupload_fields=array();
-
-        $this->mailer = new PHPMailer();
-        $this->mailer->CharSet = 'utf-8';
     }
 
     function EnableCaptcha($captcha_handler)
@@ -65,7 +60,7 @@ class FGContactForm
 
     function AddRecipient($email,$name="")
     {
-        $this->mailer->AddAddress($email,$name);
+        $this->mailer->addAddress($email, $name);
     }
 
     function SetFromAddress($from)
@@ -108,7 +103,7 @@ class FGContactForm
     }
     function AddConditionalReceipent($value,$email)
     {
-        $this->arr_conditional_receipients[$value] =  $email;
+        $this->arr_conditional_recipients[$value] =  $email;
     }
 
     function AddFileUploadField($file_field_name,$accepted_types,$max_size)
@@ -134,6 +129,7 @@ class FGContactForm
         $this->CollectData();
 
         $ret = $this->SendFormSubmission();
+        echo "ret: " . $ret;
 
         return $ret;
     }
@@ -171,42 +167,63 @@ class FGContactForm
 
     function SendFormSubmission()
     {
-        $this->CollectConditionalReceipients();
-
-        $this->mailer->CharSet = 'utf-8';
-        
-        $this->mailer->Subject = "Contact form submission from $this->name";
-
-        $this->mailer->From = $this->GetFromAddress();
-
-        $this->mailer->FromName = $this->name;
-
-        $this->mailer->AddReplyTo($this->email);
-
-        $message = $this->ComposeFormtoEmail();
-
-        $textMsg = trim(strip_tags(preg_replace('/<(head|title|style|script)[^>]*>.*?<\/\\1>/s','',$message)));
-        $this->mailer->AltBody = @html_entity_decode($textMsg,ENT_QUOTES,"UTF-8");
-        $this->mailer->MsgHTML($message);
-
-        $this->AttachFiles();
-
-        if(!$this->mailer->Send())
-        {
-            $this->add_error("Failed sending email!");
-            return false;
+        try {
+            $this->CollectConditionalReceipients();
+            $this->mailer = new PHPMailer(true);
+            $this->mailer->isSMTP();
+            $this->mailer->Host = 'electrodepot.com';
+            $this->mailer->SMTPAuth = true;
+            $this->mailer->Username = 'sales@electrodepot.com';
+            $this->mailer->Password = 'adminwrs179D';
+            $this->mailer->SMTPSecure = 'ssl';
+            $this->mailer->Port = 465;
+            $this->mailer->CharSet = 'utf-8';
+            $this->mailer->addAddress('info@electrodepot.com');
+            $this->mailer->addAddress('info@controlsupply.com');
+            $this->mailer->addAddress('developer@walkerreid.com');
+            $this->mailer->addAddress('marmek1@gmail.com');
+            $this->mailer->CharSet = 'utf-8';
+            
+            $this->mailer->Subject = "Contact form submission from $this->name";
+    
+            $this->mailer->From = $this->GetFromAddress();
+    
+            $this->mailer->FromName = $this->name;
+    
+            $this->mailer->AddReplyTo($this->email);
+    
+            $message = $this->ComposeFormtoEmail();
+    
+            $textMsg = trim(strip_tags(preg_replace('/<(head|title|style|script)[^>]*>.*?<\/\\1>/s','',$message)));
+            $this->mailer->AltBody = @html_entity_decode($textMsg,ENT_QUOTES,"UTF-8");
+            $this->mailer->MsgHTML($message);
+    
+            $this->AttachFiles();
+    
+            if(!$this->mailer->Send())
+            {
+                $this->add_error("Failed sending email!");
+                return false;
+            }
+    
+            return true;
+        } catch (Exception $e) {
+           /* PHPMailer exception. */
+           echo "Exception" .$e->errorMessage();
         }
-
-        return true;
+        catch (\Exception $e) {
+           /* PHP exception (note the backslash to select the global namespace Exception class). */
+           echo "Exception from PHPMailer" . $e->getMessage();
+        }
     }
 
     function CollectConditionalReceipients()
     {
-        if(count($this->arr_conditional_receipients)>0 &&
+        if(count($this->arr_conditional_recipients)>0 &&
           !empty($this->conditional_field) &&
           !empty($_POST[$this->conditional_field]))
         {
-            foreach($this->arr_conditional_receipients as $condn => $rec)
+            foreach($this->arr_conditional_recipients as $condn => $rec)
             {
                 if(strcasecmp($condn,$_POST[$this->conditional_field])==0 &&
                 !empty($rec))
@@ -223,8 +240,8 @@ class FGContactForm
     */
     function IsInternalVariable($varname)
     {
-        $arr_interanl_vars = array('scaptcha',
-                            'submitted',
+        echo $varname;
+        $arr_interanl_vars = array('scaptcha', 'submitted', 'g-recaptcha-response', 'Submit',
                             $this->GetSpamTrapInputName(),
                             $this->GetFormIDInputName()
                             );
@@ -245,7 +262,7 @@ class FGContactForm
                 $value = htmlentities($value,ENT_QUOTES,"UTF-8");
                 $value = nl2br($value);
                 $key = ucfirst($key);
-                $ret_str .= "<div class='label'>$key :</div><div class='value'>$value </div>\n";
+                $ret_str .= "<div class='label'>$key:</div><div class='value'>$value </div>\n";
             }
         }
         foreach($this->fileupload_fields as $upload_field)
@@ -327,9 +344,9 @@ class FGContactForm
 
     function GetFromAddress()
     {
-        if(!empty($this->from_address))
+        if(!empty($_POST['email']))
         {
-            return $this->from_address;
+            return $_POST['email'];
         }
 
         $host = $_SERVER['SERVER_NAME'];
@@ -340,6 +357,20 @@ class FGContactForm
 
     function Validate()
     {
+        $secretKey = "6LeFjXMoAAAAAIk0oxTSwz9uL0kZOQlieBYdP0_7";
+        $responseKey = $_POST['g-recaptcha-response'];
+        $userIP = $_SERVER['REMOTE_ADDR'];
+        $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
+
+        $response = file_get_contents($url);
+        $response = json_decode($response);
+
+        if(!$response->success)
+        {
+            $this->add_error("You are a robot!");
+            $ret = false;
+        }
+
         $ret = true;
         //security validations
         if(empty($_POST[$this->GetFormIDInputName()]) ||
@@ -398,14 +429,15 @@ class FGContactForm
         }
 
         //captcha validaions
-        if(isset($this->captcha_handler))
-        {
-            if(!$this->captcha_handler->Validate())
-            {
-                $this->add_error($this->captcha_handler->GetError());
-                $ret = false;
-            }
-        }
+        // if(isset($this->captcha_handler))
+        // {
+        //     $this->captcha_handler->FGSimpleCaptcha($_POST['scaptcha']);
+        //     if(!$this->captcha_handler->Validate())
+        //     {
+        //         $this->add_error($this->captcha_handler->GetError());
+        //         $ret = false;
+        //     }
+        // }
         //file upload validations
         if(!empty($this->fileupload_fields))
         {
@@ -498,10 +530,7 @@ class FGContactForm
 
     function StripSlashes($str)
     {
-        if(get_magic_quotes_gpc())
-        {
-            $str = stripslashes($str);
-        }
+        $str = stripslashes($str);
         return $str;
     }
     /*
@@ -545,14 +574,13 @@ class FGContactForm
     }
     function validate_email($email)
     {
-        return eregi("^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$", $email);
+        $pattern = '/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/';
+        return preg_match($pattern, $email) === 1;
     }
 
     function GetKey()
     {
         return $this->form_random_key.$_SERVER['SERVER_NAME'].$_SERVER['REMOTE_ADDR'];
     }
-
 }
-
 ?>
